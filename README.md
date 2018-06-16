@@ -40,3 +40,4 @@ heroku open
 2. Animate the ninja avatars
 3. Look at reimplementing authentication
 4. Provide a female ninja avatar option
+5. Animation on Loading view

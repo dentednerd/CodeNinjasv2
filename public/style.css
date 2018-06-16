@@ -157,7 +157,7 @@ a .button {
 
 @keyframes colChange {
     from {background-color: #f66;}
-    to {background-color: #aaa;}
+    to {background-color: #fff;}
 }
 
 .button:after {
@@ -173,7 +173,7 @@ a .button {
 
 @keyframes correctChange {
   from {background-color: #0fa;}
-  to {background-color: #aaa;}
+  to {background-color: #fff;}
 }
 
 .button.correct:after {
