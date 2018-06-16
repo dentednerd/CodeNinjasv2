@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import shortid from 'shortid';
 import { Line } from 'rc-progress';
 import sensei from '../../assets/images/Sensei1.jpeg';
-import ninja from '../../assets/images/ninja.png';
 import config from '../../config';
 import './Question.css';
 
@@ -17,7 +16,9 @@ class Question extends React.Component {
   }
 
   componentWillReceiveProps() {
-    this.setState({ flipped: false });
+    this.setState({ 
+      flipped: false
+    });
   }
 
   handleFlip() {
@@ -80,11 +81,14 @@ class Question extends React.Component {
 
   render() {
     const { question, questionIndex, handleCorrectAnswer } = this.props;
+    console.log('WE WANT THIS: ', config.levels[question.level].levelAvatar)
+    const levelAvatar = config.levels[question.level].levelAvatar
+    const avatar = require(`../../assets/images/${levelAvatar}`);
     return (
       <div className="question">
         <div className="progress-bar">
           <span style={{ color: config.levels[question.level].levelTitleColor }}>{config.levels[question.level].levelName}</span>
-          <img src={ninja} alt={config.levels[question.level].levelName} />
+          <img src={avatar} alt={config.levels[question.level].levelName} />
           <Line
             strokeColor={config.levels[question.level].levelColor}
             percent={questionIndex * 20}

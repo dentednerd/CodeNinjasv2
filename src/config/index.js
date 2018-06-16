@@ -6,6 +6,7 @@ const config = {
       levelColor: 'white',
       levelButtonColor: 'rgba(255,255,255,0.5)',
       levelTitleColor: '#333',
+      levelAvatar: 'academy.png',
     },
     {
       levelNum: 2,
@@ -13,12 +14,14 @@ const config = {
       levelColor: 'yellow',
       levelButtonColor: 'rgba(255,255,0,0.5)',
       levelTitleColor: '#333',
+      levelAvatar: 'academy.png',
     },
     {
       levelNum: 3,
       levelName: 'Chuunin',
       levelColor: 'darkorange',
       levelButtonColor: 'rgba(255,140,0,0.5)',
+      levelAvatar: 'gennin.png',
     },
     {
       levelNum: 4,
@@ -26,6 +29,7 @@ const config = {
       levelColor: 'orangered',
       levelButtonColor: 'rgba(255,69,0,0.5)',
       levelTitleColor: '#333',
+      levelAvatar: 'chuunin.png',
     },
     {
       levelNum: 5,
@@ -33,6 +37,7 @@ const config = {
       levelColor: 'lime',
       levelButtonColor: 'rgba(0,255,0,0.5)',
       levelTitleColor: '#333',
+      levelAvatar: 'jounin.png',
     },
     {
       levelNum: 6,
@@ -40,6 +45,7 @@ const config = {
       levelColor: 'blue',
       levelButtonColor: 'rgba(0,0,255,0.5)',
       levelTitleColor: '#fff',
+      levelAvatar: 'special-jounin.png',
     },
     {
       levelNum: 7,
@@ -47,6 +53,7 @@ const config = {
       levelColor: 'purple',
       levelButtonColor: 'rgba(128,0,128,0.5)',
       levelTitleColor: '#fff',
+      levelAvatar: 'kage.png',
     },
     {
       levelNum: 8,
@@ -54,6 +61,7 @@ const config = {
       levelColor: 'maroon',
       levelButtonColor: 'rgba(128,0,0,0.5)',
       levelTitleColor: '#fff',
+      levelAvatar: 'anbu.png',
     },
     {
       levelNum: 9,
@@ -61,6 +69,7 @@ const config = {
       levelColor: 'red',
       levelButtonColor: 'rgba(255,0,0,0.5)',
       levelTitleColor: '#fff',
+      levelAvatar: 's-class.png',
     },
   ],
 };

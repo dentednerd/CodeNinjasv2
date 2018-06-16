@@ -36,8 +36,7 @@ heroku open
 
 ## To do
 
-1. Colour code the ninja images to match levels
-2. Provide a reward / achievement mechanic
-3. Animate the ninja avatars
-4. Look at reimplementing authentication
-5. Provide a female ninja avatar option
+1. Provide a reward / achievement mechanic
+2. Animate the ninja avatars
+3. Look at reimplementing authentication
+4. Provide a female ninja avatar option

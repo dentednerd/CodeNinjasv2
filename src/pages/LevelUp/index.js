@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Line } from 'rc-progress';
 import config from '../../config';
-import ninja from '../../assets/images/ninja.png';
+// import ninja from '../../assets/images/ninja.png';
 import Congrats from '../Congrats';
 import './LevelUp.css';
 
@@ -12,6 +12,8 @@ class LevelUp extends React.Component {
     if (+this.props.level === 8) {
       return <Congrats />;
     }
+    const levelAvatar = config.levels[+this.props.level + 1].levelAvatar
+    const avatar = require(`../../assets/images/${levelAvatar}`);
     return (
       <div id="levelUp">
         <div className="progress-bar">
@@ -28,7 +30,7 @@ class LevelUp extends React.Component {
         </div>
 
         <div className="levelup-text">
-          <img src={ninja} alt="Level up!" />
+          <img src={avatar} alt="Level up!" />
           <div>
             <h1>Level Up!</h1>
             <p>Congratulations! You&apos;ve completed {config.levels[this.props.level].levelName} training!</p>

@@ -1,8 +1,16 @@
 {
   "main.css": "static/css/main.6dbe6f62.css",
   "main.css.map": "static/css/main.6dbe6f62.css.map",
-  "main.js": "static/js/main.504bf76b.js",
-  "main.js.map": "static/js/main.504bf76b.js.map",
+  "main.js": "static/js/main.9033328c.js",
+  "main.js.map": "static/js/main.9033328c.js.map",
   "static/media/Sensei1.jpeg": "static/media/Sensei1.367e45bc.jpeg",
-  "static/media/ninja.png": "static/media/ninja.d14f41f9.png"
+  "static/media/academy.png": "static/media/academy.686aba74.png",
+  "static/media/anbu.png": "static/media/anbu.1e68dde2.png",
+  "static/media/chuunin.png": "static/media/chuunin.db793c82.png",
+  "static/media/gennin.png": "static/media/gennin.f851f6e3.png",
+  "static/media/jounin.png": "static/media/jounin.83feb370.png",
+  "static/media/kage.png": "static/media/kage.f8e73705.png",
+  "static/media/ninja.png": "static/media/ninja.d14f41f9.png",
+  "static/media/s-class.png": "static/media/s-class.fb5aab5d.png",
+  "static/media/special-jounin.png": "static/media/special-jounin.5e6998b2.png"
 }
