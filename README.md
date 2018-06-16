@@ -4,7 +4,7 @@ Code Ninjas is an interactive web app, designed to teach JavaScript to kids aged
 
 This is the front end of the Code Ninjas app. The back end is hosted [here](https://codeninjasserver.herokuapp.com/).
 
-Code Ninjas is a project by TeamJSKids (Ash, Joy, Janet and Jo), created in July 2017. This reskinned version of the front end is by Jo.
+Code Ninjas is a project by TeamJSKids (Ash, Joy, Janet and Jo), created in July 2017. This reskinned version of the front end is by Jo. [View the demo.](https://codeninjas-v2.herokuapp.com/)
 
 ## Installing this app locally
 
@@ -34,7 +34,10 @@ git push heroku master
 heroku open
 ```
 
-## Still to do
+## To do
 
-1. Finish this readme
-2. Colour code the ninja images to match levels
+1. Colour code the ninja images to match levels
+2. Provide a reward / achievement mechanic
+3. Animate the ninja avatars
+4. Look at reimplementing authentication
+5. Provide a female ninja avatar option
